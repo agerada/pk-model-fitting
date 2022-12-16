@@ -14,3 +14,16 @@ parameter to our grid approximation
 looks for the best fitting parameters for a linear model. We can also visualise
 the fit as it is optimised. The main function within this script is: 
     - gradient_desent_linear
+    
+* compartments.nlogo = this is a visual representation of a one compartment 
+model with first order elimination, using the system dynamics module in  [NetLogo](https://ccl.northwestern.edu/netlogo/)
+
+* compartments2.nlogo = same as above, but added a gut compartment for first-
+order absorption
+
+* compartments1.R = this script implements the first ODE compartment model on the 
+Theopylline dataset, and introduces two new important concepts: 
+    - analytical solutions using Laplace transform
+    - numerical estimation of loss function partial derivatives using the 
+    Finite Differences method
+    

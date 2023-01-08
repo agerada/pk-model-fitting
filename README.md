@@ -27,3 +27,5 @@ Theopylline dataset, and introduces two new important concepts:
     - numerical estimation of loss function partial derivatives using the 
     Finite Differences method
     
+* urine.R = implements a one compartment model with two first order elimination
+pathways for a drug with urine measurements and presumed extra-renal metabolism 
